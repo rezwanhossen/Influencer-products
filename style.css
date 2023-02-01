@@ -265,6 +265,17 @@ footer a {
         border-radius: 10px;
     }
 
+    .fast-img img {
+        width: 350px;
+        height: 400px;
+    }
+
+    .second-img>img {
+        width: 250px;
+        height: 300px;
+
+    }
+
     main {
         margin-top: 150%;
     }
