@@ -205,3 +205,98 @@ button {
 }
 
 /* end main section */
+footer {
+    margin-top: 96px;
+    background-color: #070730;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    height: 180px;
+
+}
+
+footer h2 {
+    margin: 0px;
+}
+
+footer p {
+    margin: 3px;
+}
+
+footer a {
+    font-size: 30px;
+    padding: 3px;
+    max-width: 3px;
+    color: #FFFFFF;
+
+}
+
+@media only screen and (max-width:576px) {
+
+
+    .contener {
+        text-align: center;
+    }
+
+    .navber {
+
+        display: inline-block;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .nav-logo {
+        text-align: center;
+    }
+
+    .nav-content {
+        margin-left: 0px;
+    }
+
+    .nav-content a {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .nav-content a:hover {
+        background-color: gray;
+        border-radius: 10px;
+    }
+
+    main {
+        margin-top: 150%;
+    }
+
+    .profile-imeag {
+        margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .profile-contener {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .horejental {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .artical-contaner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-bottom {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .bottom-text {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+
+}
