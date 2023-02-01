@@ -240,8 +240,10 @@ footer a {
 
     .navber {
 
-        display: inline-block;
-        grid-template-columns: repeat(1, 1fr);
+        /* display: inline-block;
+        grid-template-columns: repeat(1, 1fr); */
+        flex-direction: row-reverse;
+
 
     }
 
@@ -270,7 +272,7 @@ footer a {
         height: 400px;
     }
 
-    .second-img>img {
+    .second-img img {
         width: 250px;
         height: 300px;
 
